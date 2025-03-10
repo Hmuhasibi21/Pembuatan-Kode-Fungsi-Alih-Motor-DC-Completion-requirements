@@ -1,12 +1,11 @@
 # NAMA : Abdul Haris Muhasibi
 # NIM : 235150307111047
-# Pembuatan Kode Fungsi Alih Motor DC
 
 Repositori ini berisi kode Python untuk Pembuatan Kode Fungsi Alih Motor DC, mencakup:
 
 # 1. Model Matematika Motor DC
 
-#Persamaan Listrik
+# Persamaan Listrik
 [ V = R i + L \frac{di}{dt} + K_e \omega ]
 
 Penjelasan:
@@ -17,7 +16,7 @@ Penjelasan:
 * ( K_e ) = Konstanta GGL (V/rad/s)
 * ( \omega ) = Kecepatan sudut (rad/s)
 
-#Persamaan Mekanik
+# Persamaan Mekanik
 [ J \frac{d\omega}{dt} = T - B \omega ]
 
 Penjelasan:
