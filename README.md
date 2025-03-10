@@ -6,25 +6,25 @@ Repositori ini berisi kode Python untuk Pembuatan Kode Fungsi Alih Motor DC, men
 
 # 1. Model Matematika Motor DC
 
-Persamaan Listrik
+#Persamaan Listrik
 [ V = R i + L \frac{di}{dt} + K_e \omega ]
 
-di mana:
+Penjelasan:
+* ( V ) = Tegangan input (V)
+* ( i ) = Arus motor (A)
+* ( R ) = Resistansi (Ω)
+* ( L ) = Induktansi (H)
+* ( K_e ) = Konstanta GGL (V/rad/s)
+* ( \omega ) = Kecepatan sudut (rad/s)
 
-( V ) = Tegangan input (V)
-( i ) = Arus motor (A)
-( R ) = Resistansi (Ω)
-( L ) = Induktansi (H)
-( K_e ) = Konstanta GGL (V/rad/s)
-( \omega ) = Kecepatan sudut (rad/s)
-Persamaan Mekanik
+#Persamaan Mekanik
 [ J \frac{d\omega}{dt} = T - B \omega ]
 
-di mana:
+Penjelasan:
+* ( J ) = Momen inersia (kg·m²)
+* ( T ) = Torsi (Nm)
+* ( B ) = Koefisien gesekan (Nm·s)
 
-( J ) = Momen inersia (kg·m²)
-( T ) = Torsi (Nm)
-( B ) = Koefisien gesekan (Nm·s)
 Torsi dihasilkan dari arus:
 [ T = K_t i ]
 
